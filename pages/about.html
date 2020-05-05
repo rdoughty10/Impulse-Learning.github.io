@@ -48,6 +48,61 @@
             </div>
         </div>
     </nav>
-    <h1> Anout page</h1>
+
+    <div>
+        <h1> About Us</h1>
+        <div class="row">
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="../img/python.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">{{instructor[0].name}}</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="pages/classes.html" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/creativereadwrite.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Creative Reading and Writing</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="pages/classes.html" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/dataanalysis.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction to Data Analytics</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="pages/classes.html" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            data: {
+                instructors: [
+                    {img: 'temp photo', name: 'Ryan Doughty', age: 18, email: 'rdoughty20@sjs.org', number: '(832)-993-4739', description: 'temporary'}
+                    {img: 'temp photo', name: 'Andrew Tong', age: 18, email: 'atong20@sjs.org', number: '(832)-993-4739', description: 'temporary'}
+                    {img: 'temp photo', name: 'Matthew Yekkel', age: 18, email: 'myekkel@sjs.org', number: '(832)-993-4739', description: 'temporary'}
+                ]
+            }
+        })
+    </script>
+
 </body>
 </html>
