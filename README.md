@@ -1,3 +1,3 @@
-# [Business Name Summer Camp](https://rdoughty10.github.io)
+# [Impulse Learning](https://impulselearning.org)
 
 These are the backend files for our planned summer camp.
